@@ -1,0 +1,6 @@
+<view class="modal" hidden="{{!modelShow}}">
+  <view class="panel" bindtap="onClose">
+      <i class="iconfont icon-shanchu1"></i>
+      <slot name="model-content"></slot>
+  </view>
+</view>
